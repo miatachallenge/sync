@@ -1,0 +1,11 @@
+package: github.com/miatachallenge/sync
+import:
+- package: github.com/gorilla/websocket
+  version: ^1.2.0
+- package: gopkg.in/gorethink/gorethink.v4
+  version: ^4.0.0
+- package: github.com/sirupsen/logrus
+  version: ^1.0.5
+  repo: git@github.com:sirupsen/logrus.git
+- package: github.com/pkg/errors
+  version: ^0.8.0
